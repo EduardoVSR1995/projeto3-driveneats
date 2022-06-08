@@ -1,0 +1,25 @@
+body{
+    width: 415px;
+    height: 1026px ;
+    background-color: #EEEEEE;
+}
+.topo{
+    display: fixed;
+    height: 92px;
+    background-color: #CF2B2B;
+}
+.h1{
+    Width:250px;
+    Height:25px;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 32.28px;
+}
+.prato{
+    Height:216px;
+    background-color:#FFFFFF;
+}
+.barra-final{
+    height: 92px;
+    background-color:#FFFFFF;
+}
