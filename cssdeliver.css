@@ -102,11 +102,13 @@ h2{
     display: flex;
     flex-wrap: wrap;
     justify-content:flex-start;
+    align-items: flex-start;
 
 }
 
 .pedido > h1, h2, h3{
-    margin-top: 10px;
+    height:  40px;
+    width: 100%;
     font-family: Roboto ;
 }
 
