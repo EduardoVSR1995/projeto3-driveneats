@@ -54,7 +54,7 @@ h2{
 }
 
 .topo{
-    Width:100% ;
+    Width:600px ;
     Height:100px;
     position: fixed;
     top: 0px;
@@ -73,7 +73,7 @@ h2{
 
 }
 .barra-final{
-    width: 100%;
+    width: 600px;
     height: 100px;
     bottom: 0px;
     left: 0px;
