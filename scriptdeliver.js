@@ -1,4 +1,4 @@
-t = function seleciona(rec){
+function seleciona(rec){
     const box = document.querySelector(".prato").children;
     box[rec-1].classList.add('margem');
     let bot = box[rec-1].querySelector(".botve");
@@ -13,7 +13,7 @@ t = function seleciona(rec){
     baotaoVerde(q,v,t);
     return rec;
 }
-v = function seleciona1(rec1){
+function seleciona1(rec1){
     const box = document.querySelector(".prato1").children;
     box[rec1-1].classList.add('margem');
     let bot = box[rec1-1].querySelector(".botve");
@@ -25,12 +25,11 @@ v = function seleciona1(rec1){
             bo.classList.add('a');
         }
     }
-    baotaoVerde(q,v,t);
     return rec1;
     
 }
 
-let q =new seleciona2(rec2){
+function seleciona2(rec2){
     const box = document.querySelector(".prato2").children;
     box[rec2-1].classList.add('margem');
     let bot = box[rec2-1].querySelector(".botve");
@@ -48,7 +47,7 @@ let q =new seleciona2(rec2){
     
 }
 function baotaoVerde(q,v,t){
-    if(q===Number && v===Number && t===Number){
+    if(p===Number && v===Number && t===Number){
             console.log("peidei")
         }
     }
