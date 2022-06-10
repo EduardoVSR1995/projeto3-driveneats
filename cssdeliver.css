@@ -1,6 +1,4 @@
 body{
-    width: 600px;
-    height: 1200px ;
     background-color: #EEEEEE;    
 }
 
@@ -47,19 +45,16 @@ h2, h3{
     margin-bottom: 100px;
 }
 
-
-
 h2{
     margin-top:123px;    
 }
 
 .topo{
-    Width:600px ;
+    Width:100%;
     Height:100px;
     position: fixed;
     top: 0px;
     left: 0px;
-    position:fixed;
     background-color: #CF2B2B;
     box-shadow: 0 0 1em grey;
 }
@@ -72,16 +67,8 @@ h2{
     overflow-x:scroll;
 
 }
-.barra-final{
-    width: 600px;
-    height: 100px;
-    bottom: 0px;
-    left: 0px;
-    position:fixed;
-    background-color: #FFFFFF;;
-}
 
-.box{ 
+.box{     
     height: 250px;
     margin-left: 15px;
     border-radius: 9px;
@@ -143,9 +130,16 @@ img{
 }
 
 .barra-final{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%; 
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100px;
+    background-color: #FFFFFF;
+
 }
 
 .botao {
