@@ -1,3 +1,4 @@
+let re=0;
 function seleciona(rec){
     const box = document.querySelector(".prato").children;
     box[rec-1].classList.add('margem');
@@ -9,9 +10,11 @@ function seleciona(rec){
             let bo = box[i].querySelector(".botve");
             bo.classList.add('a');
         }
+        else{
+            re++;
+        }
     }
-    baotaoVerde(q,v,t);
-    return rec;
+    
 }
 function seleciona1(rec1){
     const box = document.querySelector(".prato1").children;
@@ -24,9 +27,11 @@ function seleciona1(rec1){
             let bo = box[i].querySelector(".botve");
             bo.classList.add('a');
         }
-    }
-    return rec1;
     
+    else{
+        re++;
+    }
+}
 }
 
 function seleciona2(rec2){
@@ -40,15 +45,13 @@ function seleciona2(rec2){
             let bo = box[i].querySelector(".botve");
             bo.classList.add('a');
         }
- 
-    }
-    baotaoVerde(q,v,t);
-    return rec2;
-    
-}
-function baotaoVerde(q,v,t){
-    if(p===Number && v===Number && t===Number){
-            console.log("peidei")
+        else{
+            re++;
         }
     }
-    
+    console.log(re);
+}
+function square(numero) {
+    return numero * numero;
+  }
+  
