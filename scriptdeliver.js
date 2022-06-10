@@ -1,6 +1,6 @@
 function seleciona(){
-    const cardapio = document.querySelector(".div.box");
-    cardapio.insertAdjacentElement = ;
-
-
+    
+    const box = document.querySelector(".box");
+    box.classList.toggle("margem");
+    console.log(box);
 }
