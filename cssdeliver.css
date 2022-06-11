@@ -40,6 +40,12 @@ h2, h3{
     line-height:54.63px;
     color: #FFFFFF;
 }
+.barra-final{
+    font-family:  Roboto;
+    font-size: 700px;
+    color: #FFFFFF;
+    line-height:23px ;
+}
 
 .topo p {
     font-weight:400;
@@ -64,6 +70,8 @@ h2{
     box-shadow: 0 0 1em grey;
     z-index: 1;
 }
+
+
 
 .prato,.prato1,.prato2{
     Height:250px;
@@ -103,7 +111,7 @@ h2{
 
 }
 
-.pedido > h1, h2, h3{
+.barra-final, .pedido > h1> h2> h3{
     font-family: Roboto ;
     
 }
@@ -153,7 +161,6 @@ h2{
     align-items: center;
     height: 100px;
     background-color: #FFFFFF;
-
 }
 
 .botao {
@@ -165,8 +172,9 @@ h2{
     flex-direction: column;
     justify-content:center;
     align-items: center;
+    position: absolute;
 }
-.botao h1{
+.botao > h1{
     margin: 0px 0px;
     font-weight:400;
     font-size:20px;
@@ -176,10 +184,10 @@ h2{
 }
 .a{
     display: none;
+
 }
 
 .botve > img {
-   
     position: absolute;
     width: 20px;
     margin-top: 170px;
@@ -190,4 +198,17 @@ h2{
     padding: 4px;
     border: 4px solid #32B72F;
     box-sizing: border-box;
+}
+.fechar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#32B72F;
+    width:364px;
+    height:70px;
+    border-radius:50px;
+    position:relative;
+    line-height: 700;  
+    font-size: 20px;
+
 }
