@@ -1,4 +1,3 @@
-
 let pedidoComida = 0;
 let pedidoRefri = 0;
 let pedidoSobremesa = 0;
@@ -96,8 +95,8 @@ function botaoFinal(enviar) {
 
    if ( parametro+parametro1+parametro2+enviar == 6  ){
     console.log(document.querySelector('.fechar'));
-     link = "https://wa.me/5531995656030?text="+encodeURIComponent(mensagem);
-     window.open(link);
+    link = "https://wa.me/5531995656030?text="+encodeURIComponent(mensagem);
+    window.open(link);
    }
    enviar=0;
 }
