@@ -1,20 +1,3 @@
-//  function seleciona(elemento){
-//      let margem= document.querySelector('.margem');
-
-//      if(margem!==null){
-//          margem.classList.remove('margem');
-//      }
-//      elemento.classList.add('margem');
-
-
-//      const botve =document.querySelector('.a');
-//      if(botve !== null){
-//          botve.classList.remove('a');
-//          console.log(botve);
-//      }
-//      botve.classList.add('a');
-//      console.log(botve);
-//  }
 
 let pedidoComida = 0;
 let pedidoRefri = 0;
@@ -93,7 +76,7 @@ function seleciona2(rec2, a2) {
     }
 }
 
-function b(enviar) {
+function botaoFinal(enviar) {
     let pedido = document.querySelector('.prato').children;
     let nomePrato = pedido[pedidoComida].querySelector('h1').textContent;
 
@@ -113,8 +96,8 @@ function b(enviar) {
 
    if ( parametro+parametro1+parametro2+enviar == 6  ){
     console.log(document.querySelector('.fechar'));
-    link = "https://wa.me/5531995656030?text="+encodeURIComponent(mensagem);
-    window.open(link);
+     link = "https://wa.me/5531995656030?text="+encodeURIComponent(mensagem);
+     window.open(link);
    }
    enviar=0;
 }
