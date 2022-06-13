@@ -91,7 +91,7 @@ function seleciona2(rec2, a2) {
     }
 }
 
-function botaoFinal(elemento) {
+function botaoFinal() {
     let pedido = document.querySelector('.prato').children;
     let nomePrato = pedido[pedidoComida].querySelector('h1').textContent;
 
@@ -108,13 +108,16 @@ function botaoFinal(elemento) {
     "\n\- Sobremesa: "+nomeSobremesa+
     "\n\Total: R$ "+Total ;
 
+   if (document.querySelector('.fechar')!==null){
+    link = "https://wa.me/553192770357?text="+encodeURIComponent(mensagem);
+    window.open(link);
+
+   }
+
+    
     parametro=0;
     parametro1=0;
     parametro2=0;
-
-    link = "https://wa.me/31995656030?text="+encodeURIComponent(mensagem)
-    window.open(link);
-
     console.log(mensagem);
     console.log(pedidoRefri);
     console.log(pedidoSobremesa);
