@@ -109,7 +109,7 @@ function botaoFinal() {
     "\n\Total: R$ "+Total ;
 
    if (document.querySelector('.fechar')!==null){
-    link = "https://wa.me/553192770357?text="+encodeURIComponent(mensagem);
+    link = "https://wa.me/5531995656030?text="+encodeURIComponent(mensagem);
     window.open(link);
 
    }
