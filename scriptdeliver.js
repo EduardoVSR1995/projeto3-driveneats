@@ -1,14 +1,14 @@
 //  function seleciona(elemento){
 //      let margem= document.querySelector('.margem');
-    
+
 //      if(margem!==null){
 //          margem.classList.remove('margem');
 //      }
 //      elemento.classList.add('margem');
 
-    
+
 //      const botve =document.querySelector('.a');
-//      if(botve !== null){    
+//      if(botve !== null){
 //          botve.classList.remove('a');
 //          console.log(botve);
 //      }
@@ -93,7 +93,7 @@ function seleciona2(rec2, a2) {
     }
 }
 
-function botaoFinal(enviar) {
+function b(enviar) {
     let pedido = document.querySelector('.prato').children;
     let nomePrato = pedido[pedidoComida].querySelector('h1').textContent;
 
@@ -104,7 +104,7 @@ function botaoFinal(enviar) {
     let nomeSobremesa = pedido2[pedidoComida].querySelector('h1').textContent;
 
     let Total = (valor+valor1+valor2).toFixed(2);
-    let mensagem = "Olá, gostaria de fazer o pedido: "+ 
+    let mensagem = "Olá, gostaria de fazer o pedido: "+
     "\n\- Prato: "+ nomePrato +
     "\n\- Bebida: "+ nomeBebida+
     "\n\- Sobremesa: "+nomeSobremesa+
@@ -112,11 +112,9 @@ function botaoFinal(enviar) {
 
 
    if ( parametro+parametro1+parametro2+enviar == 6  ){
-    console.log(document.querySelector('.fechar'));  
-    
-     link = "https://wa.me/5531995656030?text="+encodeURIComponent(mensagem);
-     window.open(link);
-    
+    console.log(document.querySelector('.fechar'));
+    link = "https://wa.me/5531995656030?text="+encodeURIComponent(mensagem);
+    window.open(link);
    }
    enviar=0;
 }
