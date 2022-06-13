@@ -113,13 +113,7 @@ function botaoFinal() {
     window.open(link);
 
    }
-
-    
     parametro=0;
     parametro1=0;
     parametro2=0;
-    console.log(mensagem);
-    console.log(pedidoRefri);
-    console.log(pedidoSobremesa);
-
 }
