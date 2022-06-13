@@ -27,6 +27,8 @@ let valor2 = 0;
 let parametro=0;
 let parametro1=0;
 let parametro2=0;
+
+
 function seleciona(rec, a) {
     const box = document.querySelector(".prato").children;
     box[rec - 1].classList.add('margem');
@@ -91,7 +93,7 @@ function seleciona2(rec2, a2) {
     }
 }
 
-function botaoFinal() {
+function botaoFinal(enviar) {
     let pedido = document.querySelector('.prato').children;
     let nomePrato = pedido[pedidoComida].querySelector('h1').textContent;
 
@@ -108,12 +110,13 @@ function botaoFinal() {
     "\n\- Sobremesa: "+nomeSobremesa+
     "\n\Total: R$ "+Total ;
 
-   if (document.querySelector('.fechar')!==null){
-    link = "https://wa.me/5531995656030?text="+encodeURIComponent(mensagem);
-    window.open(link);
 
+   if ( parametro+parametro1+parametro2+enviar == 6  ){
+    console.log(document.querySelector('.fechar'));  
+    
+     link = "https://wa.me/5531995656030?text="+encodeURIComponent(mensagem);
+     window.open(link);
+    
    }
-    parametro=0;
-    parametro1=0;
-    parametro2=0;
+   enviar=0;
 }
