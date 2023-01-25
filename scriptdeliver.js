@@ -92,8 +92,7 @@ function botaoFinal(enviar) {
     "\n\- Sobremesa: "+nomeSobremesa+
     "\n\Total: R$ "+Total ;
 
-
-   if ( parametro+parametro1+parametro2+enviar == 6  ){
+   if ( parametro+parametro1+parametro2+enviar === 6  ){
     console.log(document.querySelector('.fechar'));
     link = "https://wa.me/5531995656030?text="+encodeURIComponent(mensagem);
     window.open(link);
